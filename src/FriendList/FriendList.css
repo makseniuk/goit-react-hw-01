@@ -1,0 +1,50 @@
+.listFriend{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.itemsListFriend{
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.divitemsFriend{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.imgFriend{
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.nameFriend{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.isOnline{
+    font-size: 18px;
+    font-weight: bold;
+    color: #2ecc71;
+    margin-bottom: 0;
+}
+
+.offline {
+    font-size: 18px;
+    font-weight: bold;
+    color: #95a5a6;
+    margin-bottom: 0;
+}

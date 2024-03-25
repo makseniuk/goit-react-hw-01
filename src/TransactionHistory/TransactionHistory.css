@@ -1,0 +1,48 @@
+.tableTransaction {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.theadTransaction {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+}
+
+.trTransaction {
+    height: 40px;
+}
+
+.thTransactionType {
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.thTransactionAmount {
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.thTransactionCurrency {
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.tbodyTransaction {
+    border-bottom: 1px solid #ddd;
+}
+
+.tdType {
+    padding-left: 20px;
+}
+
+.tdAmount {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.tdCurrency {
+    text-align: right;
+    padding-right: 20px;
+}
