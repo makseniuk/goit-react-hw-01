@@ -35,16 +35,18 @@
     margin-bottom: 10px;
 }
 
-.isOnline{
+.isOnline {
     font-size: 18px;
     font-weight: bold;
-    color: #2ecc71;
-    margin-bottom: 0;
+    color: green;
+    padding-left: 5px;
+    margin-bottom: 5px;
 }
 
 .offline {
     font-size: 18px;
     font-weight: bold;
-    color: #95a5a6;
-    margin-bottom: 0;
+    color: red;
+    padding-left: 5px;
+    margin-bottom: 5px;
 }
