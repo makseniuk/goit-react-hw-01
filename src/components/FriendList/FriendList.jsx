@@ -1,12 +1,11 @@
-import "./FriendList.css"
-
+import styles from "./FriendList.module.css";
 import FriendListItem from './FriendListItems';
 
 const FriendList = ({ friends }) => {
   return (
-    <ul className='listFriend'>
+    <ul className={styles.listFriend}>
       {friends.map((friend) => (
-        <li className='itemsListFriend' key={friend.id}>
+        <li className={styles.itemsListFriend} key={friend.id}>
           <FriendListItem friend={friend} />
         </li>
       ))}

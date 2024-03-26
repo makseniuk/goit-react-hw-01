@@ -4,8 +4,7 @@
 }
 
 .theadTransaction {
-    background-color: #f2f2f2;
-    border-bottom: 1px solid ;
+    background-color: black;
 }
 
 .trTransaction {
@@ -15,34 +14,39 @@
 .thTransactionType {
     font-weight: bold;
     padding-left: 20px;
+    color: white;
+    border: 1px solid white;
 }
 
 .thTransactionAmount {
     font-weight: bold;
     text-align: right;
     padding-right: 20px;
+    color: white;
+    border: 1px solid white;
 }
 
 .thTransactionCurrency {
     font-weight: bold;
     text-align: right;
     padding-right: 20px;
-}
-
-.tbodyTransaction {
-    border-bottom: 1px solid #ddd;
+    color: white;
+    border: 1px solid white;
 }
 
 .tdType {
     padding-left: 20px;
+    border: 1px solid black;
 }
 
 .tdAmount {
     text-align: right;
     padding-right: 20px;
+    border: 1px solid black;
 }
 
 .tdCurrency {
     text-align: right;
     padding-right: 20px;
+    border: 1px solid black;
 }

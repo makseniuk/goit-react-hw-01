@@ -1,11 +1,13 @@
+.cardProfile{
+    border: 1px solid black;
+    width: 400px;
+}
+
 .divImgProfile{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
 }
 
 .imgProfile{
@@ -37,10 +39,9 @@
 .listProfile{
     display: flex;
     justify-content: space-between;
-    width: 100%;
     padding: 0;
-    list-style: none;
-    border-top: 1px solid #ddd;
+    background-color: #6c757d;
+    border: 1px solid black;
 }
 
 .itemsListprofile{
@@ -51,37 +52,44 @@
     padding: 10px;
     width: 33.33%;
     box-sizing: border-box;
+    border: 1px solid black;
 }
 
 .followersTextProfile{
     font-size: 18px;
-    color: #6c757d;
+    font-weight: 500;
+    color: black;
     margin-bottom: 5px;
 }
 
 .followersProfile{
     font-size: 24px;
     font-weight: bold;
+    color: black;
 }
 
 .viewsTextProfile{
     font-size: 18px;
-    color: #6c757d;
+    font-weight: 500;
+    color: black;
     margin-bottom: 5px;
 }
 
 .viewsProfile{
     font-size: 24px;
     font-weight: bold;
+    color: black;
 }
 
 .likesTextProfile{
     font-size: 18px;
-    color: #6c757d;
+    font-weight: 500;
+    color: black;
     margin-bottom: 5px;
 }
 
 .likesProfile{
     font-size: 24px;
     font-weight: bold;
+    color: black;
 }
